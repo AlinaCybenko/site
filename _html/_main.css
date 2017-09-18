@@ -1,0 +1,302 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+
+.img_head {
+	position: absolute;
+	background-position: top center;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 600px;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #2d6e70;
+	opacity: 0.7;
+	max-height: 600px;
+}
+
+
+.caption h1{
+	color: #fff;
+	position: relative;
+	text-align: center;
+	margin-top: 150px;
+}
+
+.caption .btn-success{
+	position: relative;
+	display:table;
+	margin:auto;
+	height: 50px;
+	width: 230px;
+	background-color: #6fb048;
+	color: #ffffff;
+	font-family: "MontserratRegular", sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-top: 14px;
+	margin-top: 36px;
+	margin-bottom: 163px;
+}
+
+.content, .content_bot {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.content h2, .content_bot h2{
+	position: relative;
+	color: #0f5f5c;
+	font-family: "RobotoLight", sans-serif;
+}
+
+.content hr, .content_bot hr{
+	width: 65px;
+	height: 1px;
+	background-color: #6fb048;
+	margin-top: 12px;
+}
+
+.tit_p p, .tit_p2 p{
+	margin-top: 30px;
+	margin-bottom: 90px;
+}
+
+.content h4{
+	margin-top: 22px;
+	line-height: 20px;
+	color: #0f5f5c;
+	font-family: "RobotoRegular", sans-serif;
+}
+
+.ab_item{
+	font-size: 14px;
+	padding: 0 20px;
+	margin-bottom: 100px;
+}
+
+.ab_item:hover{
+	-webkit-transform: translateY(-10px);
+	-ms-transform: translateY(-10px);
+	transform: translateY(-10px);
+}
+
+.ab_item .on{
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-ms-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.ab_item{
+	-webkit-transition: all .5s ease;
+	-ms-transition: all .5s ease;
+	transition: all .5s ease;
+}
+
+.s_bot{
+	background-color: #eef1ec;
+}
+
+.content_bot h4{
+	color: #0f5f5c;
+	font-family: "RobotoMedium", sans-serif;
+	text-align: left;
+	margin-left: 30px;
+	margin-top: 18px;
+}
+
+
+
+.Team p{
+	font-family: "RobotoRegular", sans-serif;
+	text-align: left;
+	margin-left: 30px;
+	line-height: 4px;
+	font-size: 14px;
+	margin-bottom: 110px;
+}
+
+.g_box{
+	position: relative;
+	background-position: top center;
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-height: 200px;
+	color: #fff;
+	padding-bottom: 56px;
+}
+
+.g_box h3{
+	font-family: "RobotoLight", sans-serif;
+	margin-top: 70px;
+}
+
+.g_box .btn-success{
+	position: relative;
+	display: table;
+	margin: auto;
+	margin-top:86px;
+	width: 285px;
+	height: 42px;
+	background-color: #49732f;
+	font-family: "MontserratRegular", sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	padding-top: 10px;
+}
+
+.main_footer {
+	padding-top: 70px;
+	font-size: 13px;
+}
+
+.main_footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+
+.main_footer a{
+	color: #83a7a5;
+}
+
+.main_footer h4, .main_footer h6, .main_footer span{
+	color: #0f5f5c;
+}
+
+.main_footer h4{
+	font-family: ; font-family: "ProximaNovaBold", sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.main_footer h6{
+	font-family: ; font-family: "RobotoMedium", sans-serif;
+}
+
+.main_footer .input-group{
+	background-color: #eef1ec;
+	border-radius: 3px;
+}
+
+.main_footer i{
+	color: #6fb048;
+	background-color: #eef1ec;
+	padding-right: 10px;
+	padding-left: 8px;
+}
+
+.main_footer .btn-default{
+	background-color: transparent;
+	border: none;
+
+}
+
+.main_footer .form-control{
+	border-radius: 3px;
+	border-color: transparent;
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover{
+	color: #6fb048;
+	background-color: #eef1ec;
+	border-color: transparent;
+}
+
+.main_fb{
+	border-top: 1px solid #eef1ec;
+	padding-top: 20px;
+}
+
+.main_fb .buttons{
+	position: relative;
+	list-style: none;
+	display: block;
+	float: right;
+}
+
+.main_fb li{
+	display: inline-block;
+}
+
+.main_fb .button1{
+	background: url(img/10-layers.png);
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.main_fb .button2{
+	background: url(img/10-layers.png);
+	background-position: 30px 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.main_fb .button3{
+	background: url(img/10-layers.png);
+	background-position: 70px 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.main_fb .button4{
+	background: url(img/10-layers.png);
+	background-position: 110px 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.main_fb .button5{
+	background: url(img/10-layers.png);
+	background-position: 150px 0;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.fb{
+	height: 170px;
+}

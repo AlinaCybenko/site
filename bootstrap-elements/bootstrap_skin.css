@@ -1,0 +1,156 @@
+body{
+	font-size: 15px;
+	color: #83a7a5;
+}
+
+h1, .h1{
+	font-size: 50px;
+}
+
+h2, .h2{
+	font-size: 32px;
+}
+
+h3, .h3{
+	font-size: 28px;
+}
+
+h4, .h4{
+	font-size: 16px;
+}
+
+h5, .h5{
+	font-size: 15px;
+}
+
+h6, .h6{
+	font-size: 13px;
+}
+
+.navbar-default, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a{
+	text-transform: uppercase;
+	color: rgba(255,255,255,.7);
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:focus{
+	color: rgba(255,255,255,.7)
+}
+
+.btn-primary{
+	width: 110px;
+	height: 32px;
+	background-color: rgba(255,255,255,.4);
+}
+
+.btn{
+	border-radius: 2px;
+	color: #fff;
+	font-weight: 400;
+	border-color: transparent;
+	padding: 0; 
+}
+
+.btn:active, .btn.active{
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.form-control{
+	width: 241px;
+	height: 36px;
+	background-color: #eef1ec;
+	border-color: transparent;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.form-control:focus{
+	border-color: #83a7a5;
+}
+
+.btn-primary.active, .btn-primary:active, .btn-primary:hover, .open>.dropdown-toggle.btn-primary{
+	background-color: rgba(69,106,111,.4);
+	border: none;
+}
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus{
+	color: #fff;
+	background-color: rgba(69,106,111,.7);
+	border: none;
+}
+
+.btn-primary:focus, .btn-primary.focus{
+	background-color: rgba(255,255,255,.4);
+	border: none;
+	color: #fff;
+}
+
+.btn-primary.active, .btn-primary:active{
+	color: #fff;
+	background-color: rgba(255,255,255,.9);
+	border: none;
+}
+
+.btn.active.focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn:active:focus, .btn:focus{
+	outline: none;
+}
+
+
+
+
+.input-group-addon:not(:first-child):not(:last-child), .input-group-btn:not(:first-child):not(:last-child), .input-group .form-control:not(:first-child):not(:last-child){
+	border-radius: 2px;
+}
+
+a{
+	color: #fff;
+}
+
+a:hover, a:focus{
+	color: #fff;
+	text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-control, .navbar{
+	border-radius: 0;
+}
+
+.form-control:focus {
+	box-shadow: none;
+}
+
+
+
+.navbar-default{
+	border:none;
+}
+
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
